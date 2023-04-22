@@ -216,9 +216,15 @@ img {
 }
 
 .footer__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #ffffff;
 }
 
-.footer__img {
+.footer__logo {
+  margin-bottom: 10px;
 }
 
 .footer__social {
@@ -226,10 +232,17 @@ img {
 
 .footer__subtitle {
   text-align: right;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  margin-bottom: 10px;
 }
 
 .footer__list {
   display: flex;
+  gap: 10px;
 }
 
 .footer__item {
@@ -243,7 +256,14 @@ img {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background-color: #0f3f3c;
+}
+
+.footer__link:hover {
+  background-color: #ffffff;
+}
+
+.footer__link:hover .footer__icon {
+  fill: #f07f2e;
 }
 
 .footer__icon {
